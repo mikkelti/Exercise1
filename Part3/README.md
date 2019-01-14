@@ -15,6 +15,7 @@ When answering the questions, remember to use all the resources at your disposal
  
  ### What kinds of problems motivates the need for concurrent execution?
  (Or phrased differently: What problems do concurrency help in solving?)
+ 
  Problems with independent processes, e.g. lights blinking at different frequencies or the processes in an OS. Problems where sequential computing would result in a lot of waiting, e.g. when interfacing with I/O - units.
  
  ### Does creating concurrent programs make the programmer's life easier? Harder? Maybe both?

@@ -20,6 +20,7 @@ When answering the questions, remember to use all the resources at your disposal
  
  ### Does creating concurrent programs make the programmer's life easier? Harder? Maybe both?
  (Come back to this after you have worked on part 4 of this exercise)
+ 
  Probably both, need to revisit this.
  
  ### What are the differences between processes, threads, green threads, and coroutines?

@@ -1,2 +1,4 @@
 # Backup files for emacs
 **/*~
+# VS Code project settings
+.vscode

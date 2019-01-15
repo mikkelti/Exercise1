@@ -25,4 +25,8 @@ clean:
 
 rebuild:	clean all
 
-.PHONY: all rebuild clean
+# rule for building and running the program
+run: $(TARGET)
+	./$<
+
+.PHONY: all rebuild clean run

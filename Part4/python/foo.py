@@ -12,21 +12,30 @@ i = 0
 def incrementingFunction():
     global i
     # TODO: increment i 1_000_000 times
+    for n in range(1000000):
+        i += 1
 
 def decrementingFunction():
     global i
     # TODO: decrement i 1_000_000 times
+    for n in range(1000000):
+        i -= 1
 
 
 
 def main():
     # TODO: Something is missing here (needed to print i)
-
+    # Question: What does the above comment mean?
+    
     incrementing = Thread(target = incrementingFunction, args = (),)
     decrementing = Thread(target = decrementingFunction, args = (),)
     
     # TODO: Start both threads
+    incrementing.start()
+    decrementing.start()
     
+    # Join waits until the thread in question terminates
+    # This is useful because we don't want the printing to happen before both threads have terminated
     incrementing.join()
     decrementing.join()
     

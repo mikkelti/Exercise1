@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /* Questions
-* Why is the return type void*?
-* What does pthread_join(thread_id, NULL) do?
+* Why is the return type void*? 
+* Answer: void* are used extensively in C. They can be casted to any pointer type.
 */
 
 int i = 0;
